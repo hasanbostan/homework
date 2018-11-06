@@ -1,0 +1,92 @@
+*{box-sizing: border-box;
+
+padding: 0;
+margin: 0;
+
+font-family: sans-serif;
+}
+
+@media (min-width:992px){
+	.col-sm-4{
+		width: 33%;
+		float: left;
+
+	}
+}
+@media (min-width:768px)and (max-width: 991px){
+	
+	.col-md-6{
+		width: 50%;
+		float: left;
+	}
+	.col-lg-12{
+		width: :100%;
+		float: left;
+	}
+
+
+}
+@media (max-width:767px){
+
+	.col-lg-12{
+		width: :100%;
+		float: left;
+	}
+
+	
+}
+
+body{
+
+	background-color: powderblue;
+
+}
+h1{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: grey;
+	font-family: verdana;
+}
+
+.border{
+	padding: 5px;
+}
+
+.baslik{
+	position:relative;
+	top: 0px;
+	right: 0px;
+	float:right;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.yazi{
+	border: 1px solid black;
+	overflow: auto;
+	clear:right;
+}
+
+.yazi p{
+	clear:right;
+}
+
+.kebo.baslik {
+	background-color: yellow;
+}
+.kebo.yazi{
+	background-color: red;
+}
+.katık.baslik {
+	background-color: orange;
+}
+.katık.yazi{
+	background-color: lightgreen;
+}
+.öncü.baslik {
+	background-color: pink;
+}
+.öncü.yazi{
+	background-color: slateblue;
+}
